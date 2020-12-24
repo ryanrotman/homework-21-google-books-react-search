@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import M from "materialize-css";
+import "./index.css";
 
 function Navbar() {
     
