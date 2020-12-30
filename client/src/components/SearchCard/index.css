@@ -7,3 +7,9 @@
 .btn-search-card {
     margin-right: 20px;
 }
+
+@media only screen and (max-width : 600px) {
+    .btn-search-card {
+        margin-right: 17px;
+    }
+}
