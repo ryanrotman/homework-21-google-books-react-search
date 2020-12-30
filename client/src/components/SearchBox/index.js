@@ -1,21 +1,21 @@
 import "./index.css";
 
-function SearchBox() {
+function SearchBox(props) {
     return (
         <div id="search-section">
             <h5>Book Search</h5>
-            <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                        <input id="book" type="text" class="validate" />
-                        <label for="book">Book</label>
-                        <span class="helper-text" data-error="must enter a book"></span>
+            <div className="row">
+                <form className="col s12">
+                    <div className="row">
+                        <div className="input-field col s12">
+                        <input id="book" type="text" className="validate" {...props} />
+                        <label htmlFor="book">Book</label>
+                        <span className="helper-text" data-error="must enter a book"></span>
                         </div>
                     </div>
                     <div className="right-align">
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i>
+                        <button className="btn waves-effect waves-light" type="submit" name="action" {...props}>Submit
+                            <i className="material-icons right">send</i>
                         </button>
                     </div>
                 </form>
