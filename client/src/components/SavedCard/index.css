@@ -7,3 +7,9 @@
 .btn-saved-card {
     margin-right: 20px;
 }
+
+@media only screen and (max-width : 600px) {
+    .btn-saved-card {
+        margin-top: 10px;
+    }
+}

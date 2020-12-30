@@ -2,18 +2,18 @@ import "./index.css";
 
 function SavedCard() {
     return (
-        <div class="col s12">
-            <div class="card horizontal">
-            <div class="card-image">
+        <div className="col s12">
+            <div className="card horizontal">
+            <div className="card-image">
                 <img src="https://via.placeholder.com/100x190" />
             </div>
-            <div class="card-stacked">
-                <div class="card-content">
+            <div className="card-stacked">
+                <div className="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.</p>
                 </div>
-                <div class="card-action">
-                    <a class="waves-effect waves-light btn btn-saved-card">View</a>
-                    <a class="waves-effect waves-light btn btn-saved-card">Delete</a>
+                <div className="card-action">
+                    <a className="waves-effect waves-light btn btn-saved-card">View</a>
+                    <a className="waves-effect waves-light btn btn-saved-card">Delete</a>
                 </div>
             </div>
             </div>
