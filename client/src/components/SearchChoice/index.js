@@ -3,18 +3,18 @@ import "./index.css"
 
 function SearchChoice() {
     return (
-        <div class="col s12 m6">
-            <h4 class="header center-align">Search Books</h4>
-            <div class="card horizontal">
-            <div class="card-image">
-                <i class="fas fa-search"></i>
+        <div className="col s12 m6">
+            <h4 className="header center-align">Search Books</h4>
+            <div className="card horizontal">
+            <div className="card-image">
+                <i className="fas fa-search"></i>
             </div>
-            <div class="card-stacked">
-                {/* <div class="card-content">
+            <div className="card-stacked">
+                {/* <div className="card-content">
                 <p>Click below to search for books.</p>
                 </div> */}
-                <div class="card-action">
-                <Link to="/search">Click here to search for books</Link>
+                <div className="card-action">
+                <Link to="/search" className="link-search">Click here to search for books</Link>
                 </div>
             </div>
             </div>
