@@ -66,6 +66,7 @@ function Search() {
         })
 
         alert(`${title} has been saved!`)
+        // TODO: try to add in the toast feature from materialize instead of the default browser alert
     };
 
     return (
