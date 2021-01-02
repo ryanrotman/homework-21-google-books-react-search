@@ -41,14 +41,23 @@ function Search() {
     // }
 
     const onSaveBook = (id) => {
+        console.log("TARGET BOOK ID: ", id);
         const targetBook = book.find((book) => book.id === id);
-        const title = targetBook.title;
-        const authors = targetBook.authors;
-        const description = targetBook.description;
-        const image = targetBook.image;
-        const link = targetBook.link;
+        const bookId = targetBook.id;
+        console.log("TARGET BOOK: ", targetBook);
+        const title = targetBook.volumeInfo.title;
+        console.log("TARGET BOOK TITLE: ", title);
+        const authors = targetBook.volumeInfo.authors;
+        console.log("TARGET BOOK AUTHORS: ", authors);
+        const description = targetBook.volumeInfo.description;
+        console.log("TARGET BOOK DESC: ", description);
+        const image = targetBook.volumeInfo.imageLinks.thumbnail;
+        console.log("TARGET BOOK IMG: ", image);
+        const link = targetBook.volumeInfo.infoLink;
+        console.log("TARGET BOOK LINK: ", link);
 
         API.saveBook({
+            id: bookId,
             title: title,
             authors: authors,
             description: description,
@@ -80,7 +89,7 @@ function Search() {
                                 description={book.volumeInfo.description}
                                 image={book.volumeInfo.imageLinks.thumbnail}
                                 link={book.volumeInfo.infoLink}
-                                onClick={onSaveBook}
+                                onClick={() => onSaveBook(book.id)}
                             />
                         ))
                     ) : (
