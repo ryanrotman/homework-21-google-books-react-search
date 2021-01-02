@@ -64,6 +64,8 @@ function Search() {
             image: image,
             link: link
         })
+
+        alert(`${title} has been saved!`)
     };
 
     return (
