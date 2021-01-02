@@ -48,6 +48,7 @@ function Saved() {
                         <h5 className="center-align"><strong>No Results to Display</strong></h5>
                     )}
                 </div>
+                <br />
             </div>
         </div>
     )
