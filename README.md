@@ -9,9 +9,9 @@ The scope of this project is to create ...
 
 
 ## Instructions
-<!-- This project can be opened and run in multiple ways.
-- You can use this application [here](https://ryanrotman.github.io/homework-19-user-directory/).
-- You can also clone or fork this application from this [repository](https://github.com/ryanrotman/homework-19-user-directory) and then open it in your text editor of choice. You will also need access to a CLI. This project was created using VSCode and then run in the integrated terminal. Then run ```npm run start``` to launch the application. -->
+This project can be opened and run in multiple ways.
+- You can use this application [here](https://rr-google-books-search.herokuapp.com/).
+- You can also clone or fork this application from this [repository](https://github.com/ryanrotman/homework-21-google-books-react-search) and then open it in your text editor of choice. You will also need access to a CLI. This project was created using VSCode and then run in the integrated terminal. Then run ```npm run start``` to launch the application.
 
 ## Page Screenshots
 
