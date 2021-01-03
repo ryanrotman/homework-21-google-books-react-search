@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import SearchBox from "../components/SearchBox";
 import SearchCard from "../components/SearchCard";
 import API from "../utils/API";
+import M from "materialize-css";
 
 function Search() {
 
@@ -65,8 +66,7 @@ function Search() {
             link: link
         })
 
-        alert(`${title} has been saved!`)
-        // TODO: try to add in the toast feature from materialize instead of the default browser alert
+        M.toast({html: `${title} has been saved!`})
     };
 
     return (

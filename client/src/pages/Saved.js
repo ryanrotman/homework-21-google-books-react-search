@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import SavedCard from "../components/SavedCard";
 import API from "../utils/API";
+import M from "materialize-css";
 
 function Saved() {
 
@@ -23,6 +24,8 @@ function Saved() {
         API.deleteBook(id)
             .then(res => loadbooks())
             .catch(err => console.log(err))
+
+        M.toast({html: `Book has been deleted!`})
     };
 
     return (
