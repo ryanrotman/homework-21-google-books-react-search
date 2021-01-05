@@ -11,24 +11,26 @@ function Navbar() {
     }, []);
     
     return (
-        <div class="navbar-fixed">
-            <nav>
-                <div className="nav-wrapper">
-                <Link to="/" className="brand-logo">Google Books</Link>
-                <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-                <ul className="right hide-on-med-and-down">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/search">Search</Link></li>
-                    <li><Link to="/saved">Saved</Link></li>
-                </ul>
-                </div>
-            
-                <ul className="sidenav" id="nav-mobile">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/search">Search</Link></li>
-                    <li><Link to="/saved">Saved</Link></li>
-                </ul>
-            </nav>
+        <div>
+            <div class="navbar-fixed">
+                <nav>
+                    <div className="nav-wrapper">
+                    <Link to="/" className="brand-logo">Google Books</Link>
+                    <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                    <ul className="right hide-on-med-and-down">
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/search">Search</Link></li>
+                        <li><Link to="/saved">Saved</Link></li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <ul className="sidenav" id="nav-mobile">
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/search">Search</Link></li>
+            <li><Link to="/saved">Saved</Link></li>
+            </ul>
         </div>
     )
 }
