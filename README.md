@@ -1,9 +1,9 @@
-# Homework 21: Google Books React Search
+# Google Books React Search
 
 ## Description
-This repository holds the homework assignment for Week 21 of the [The Coding Boot Camp](https://techbootcamps.utexas.edu/coding/) through the University of Texas at Austin's Center for Professional Education.
+<!-- This repository holds the homework assignment for Week 21 of the [The Coding Boot Camp](https://techbootcamps.utexas.edu/coding/) through the University of Texas at Austin's Center for Professional Education. -->
 
-The scope of this project is to create a full stack application using MongoDB, Express, React, and Node. This application uses the Google Books API and allows for a user to search for books, view books, and save or delete them from the database.
+This is a full stack application using MongoDB, Express, React, and Node that uses the Google Books API and allows for a user to search for books, view books, and save or delete them from the database.
 
 ## Notes
 This application took advantage of React Router and has three routes in the single-page application; home, search, and saved. It also uses the Materialize Toast feature to let a user know that a book has been saved as well as deleted. This application was also built with mobile responsiveness and design in mind, so some elements are changed and/or hidden when being views on mobile and tablet devices.
